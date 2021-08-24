@@ -1,0 +1,19 @@
+body {
+    font-size: 20px;
+    background: black;
+    color:white;
+}
+header{
+        text-align: right;
+}
+img{
+        height: 99%;
+        width:100%;
+}
+a{
+        color:yellow;
+}
+span{
+        background: red;
+        
+}

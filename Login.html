@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Login</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!--All-->
+<body>
+       <form class="box" action="index.html"   method="post">
+           <!--titulo--><h1>Login</h1>
+               <input class="" id="name" type="text" placeholder="Username">
+            <input class="" id="password" type="password"
+            placeholder="password">
+            <input type="submit" value="Login" onclick="login()">
+               
+               
+               
+       </form>
+        
+</form>
+  <!-- Project -->
+  <script>
+          function login(){
+        var user=document.getElementById("name")
+        var senha=document.getElementById("password")
+        if(user.value == ""){
+                alert("erro")
+       window.location.href="Registro.html"
+
+        }
+        else{
+                     confirm("Sua conta foi logada")
+ 
+        }
+}
+  </script>
+</body>
+</html>
